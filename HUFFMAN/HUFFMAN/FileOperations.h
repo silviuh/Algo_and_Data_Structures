@@ -30,6 +30,7 @@ namespace text_operations {
 		void writeToFile(string& bufferToWrite, const char* filePath) {
 			std::ofstream out(filePath);
 			out << bufferToWrite;
+			out.close();
 		}
 	};
 }

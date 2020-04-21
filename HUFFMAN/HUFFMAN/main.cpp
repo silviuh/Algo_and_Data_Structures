@@ -9,7 +9,7 @@ int main() {
 	FileOperations* fileManager = new FileOperations("file_in.txt");
 	HuffmanTree* utilityTree = new HuffmanTree(fileManager->parseFile());
 
-	string bufferToEncode = "aabbbcdeeee";  // you may choose any buffer to encode
+	string bufferToEncode = "aab,,,..??66693943^^^^blaaa##bbcdeeee";  // you may choose any buffer to encode
 	string encodedBuffer = utilityTree->encode(
 		bufferToEncode
 	);
